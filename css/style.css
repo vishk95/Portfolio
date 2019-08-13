@@ -111,7 +111,6 @@ body {
 .items li img {
 	width: 100%;
 	padding:1px;
-	border:1px solid #021a40;
 	-webkit-transition: all 0.2s linear, 1s;
     -moz-transition: all 0.2s linear, 1s;
     -o-transition: all 0.2s linear, 1s;
@@ -123,6 +122,9 @@ body {
 	position: relative;
 	display: block;
 	overflow: hidden;
+	height: 250px;	
+	width: 395px;
+	border:1px solid #021a40;
 }
 
 .items .item:hover img {
@@ -135,8 +137,9 @@ body {
 
 .items {
 	padding: 0;
-	justify-content: center;
-  	display: flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .copyright {
