@@ -97,6 +97,8 @@ body {
 .items li {
 	display: inline-block;
 	padding: 5px;
+	text-align: center;
+
 }
 
 .items li p {
@@ -120,10 +122,10 @@ body {
 
 .items .item {
 	position: relative;
+	text-align: center;
 	display: block;
 	overflow: hidden;
 	height: 250px;	
-	width: 395px;
 	border:1px solid #021a40;
 }
 
