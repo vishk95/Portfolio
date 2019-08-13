@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 	});
 
-	$("#navigation a").click(function(e) {
+	$("#navigation .navbar-brand").click(function(e) {
 		e.preventDefault();
 
 		var targetElement = $(this).attr("href");
